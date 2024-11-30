@@ -20,6 +20,7 @@ return {
     vim.keymap.set("n", "<A-8>", "<Cmd>BufferGoto 8<CR>")
     vim.keymap.set("n", "<A-9>", "<Cmd>BufferGoto 9<CR>")
     vim.keymap.set("n", "<A-0>", "<Cmd>BufferLast<CR>")
+    vim.keymap.set("n", "<A-q>", "<Cmd>BufferClose<CR>")
   end,
 
   opts = {
