@@ -2,7 +2,7 @@ return {
   {
     "nvim-telescope/telescope.nvim",
     tag = "0.1.8",
-
+    -- needs ripgrep to be installed 
     dependencies = { "nvim-lua/plenary.nvim" },
     config = function()
       local builtin = require("telescope.builtin")
