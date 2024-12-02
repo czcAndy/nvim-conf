@@ -7,8 +7,8 @@ return {
 
   init = function()
     vim.g.barbar_auto_setup = false
-    vim.keymap.set("n", "<A-,>", "<Cmd>BufferPrevious<CR>")
-    vim.keymap.set("n", "<A-.>", "<Cmd>BufferNext<CR>")
+    vim.keymap.set("n", "<A-h>", "<Cmd>BufferPrevious<CR>")
+    vim.keymap.set("n", "<A-l>", "<Cmd>BufferNext<CR>")
     -- Goto buffer in position...
     vim.keymap.set("n", "<A-1>", "<Cmd>BufferGoto 1<CR>")
     vim.keymap.set("n", "<A-2>", "<Cmd>BufferGoto 2<CR>")
